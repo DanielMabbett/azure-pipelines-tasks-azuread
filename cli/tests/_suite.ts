@@ -44,4 +44,14 @@ describe('Sample task tests', function () {
     
         done();
     }); 
+
+    it('(TODO) az-cli should show up', function(done: MochaDone) {
+        this.timeout(1000);
+
+        let tp = path.join(__dirname, 'azcli.js')
+        let tr: ttm.MockTestRunner = new ttm.MockTestRunner(tp);
+        tr.run();
+        console.log(tr.succeeded);
+        done();
+    });
 });
