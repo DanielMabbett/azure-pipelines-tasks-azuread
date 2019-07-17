@@ -1,0 +1,27 @@
+{
+  "name": "azure-pipelines-tasks-azuread",
+  "version": "0.0.1",
+  "description": "description",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielMabbett/azure-pipelines-tasks-azuread.git"
+  },
+  "author": "daniel mabbett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanielMabbett/azure-pipelines-tasks-azuread/issues"
+  },
+  "homepage": "https://github.com/DanielMabbett/azure-pipelines-tasks-azuread#readme",
+  "dependencies": {
+    "azure-pipelines-task-lib": "^2.8.0"
+  },
+  "devDependencies": {
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.6.6",
+    "@types/q": "^1.5.2"
+  }
+}

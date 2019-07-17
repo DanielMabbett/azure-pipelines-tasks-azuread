@@ -1,0 +1,30 @@
+{
+    "id": "0e750704-cb42-4e93-8cf8-b57ac9a44f78",
+    "name": "AzureADCliTasks",
+    "friendlyName": "Azure AD Tasks",
+    "description": "Azure AD Tasks",
+    "helpMarkDown": "",
+    "category": "Utility",
+    "author": "daniel mabbett",
+    "version": {
+        "Major": 0,
+        "Minor": 0,
+        "Patch": 1
+    },
+    "instanceNameFormat": "Echo $(samplestring)",
+    "inputs": [
+        {
+            "name": "samplestring",
+            "type": "string",
+            "label": "Sample String",
+            "defaultValue": "",
+            "required": true,
+            "helpMarkDown": "A sample string"
+        }
+    ],
+    "execution": {
+        "Node": {
+            "target": "index.js"
+        }
+    }
+}
